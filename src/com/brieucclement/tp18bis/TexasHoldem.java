@@ -9,9 +9,14 @@ public class TexasHoldem {
 	do{
 	
 		System.out.println("Choisissez votre mise: ");
-		sc.nextLine();
+		mise.nextLine();
+		System.out.println("Choisissez votre mise: ");
+		mise.nextLine();
+		System.out.println("Choisissez votre mise: ");
+		mise.nextLine();
 		
-	
+		System.out.println("Choisissez votre mise: ");
+		mise.nextLine();
 		} while ();
 	
 	}

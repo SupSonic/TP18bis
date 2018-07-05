@@ -11,7 +11,7 @@ public class Carte {
 		     couleur.add("Carreau");
 		     couleur.add("Coeur");
 		     couleur.add("Pique");
-		     couleur.add("Tèfle");
+		     couleur.add("Trèfle");
 			 }
 
 		List<String> valeur = new ArrayList<String>(); {

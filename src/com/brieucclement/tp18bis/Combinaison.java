@@ -2,16 +2,20 @@ package com.brieucclement.tp18bis;
 
 public class Combinaison {
 	
-	String v
+	String couleur = ;
+	String valeur;
 	
 	// Quinte flush royal
 	public boolean checkqfr () {
-		if ()
-		return false;
+		if (((valeur == "As") && (valeur == "Roi") && (valeur == "Dame") && (valeur == "Valet") && (valeur == "Dix")) 
+				&& ((couleur == "Coeur") || (couleur == "Carreau") || (couleur == "Pique") || (couleur == "Trèfle")));
+				return true;
 		}
 	
 	// Quinte flush ordinaire
 	public boolean checkqfo () {
+		if (((valeur < "As") && (valeur == "Roi") && (valeur == "Dame") && (valeur == "Valet") && (valeur == "Dix")) 
+				&& ((couleur == "Coeur") || (couleur == "Carreau") || (couleur == "Pique") || (couleur == "Trèfle")));
 		return false;
 		}
 	
