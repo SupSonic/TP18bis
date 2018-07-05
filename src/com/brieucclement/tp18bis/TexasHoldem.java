@@ -1,9 +1,18 @@
 package com.brieucclement.tp18bis;
 
+import java.util.Scanner;
+
 public class TexasHoldem {
 
-	do{
-		
-	} while ();
+	Scanner mise = new Scanner(System.in);
 	
+	do{
+	
+		System.out.println("Choisissez votre mise: ");
+		sc.nextLine();
+		
+	
+		} while ();
+	
+	}
 }
