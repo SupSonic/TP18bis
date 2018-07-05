@@ -2,24 +2,54 @@ package com.brieucclement.tp18bis;
 
 public class Combinaison {
 	
-		// Quinte flush royal
-	public boolean checkqfr ()
-		// Quinte flush ordinaire
+	
+	// Quinte flush royal
+	public boolean checkqfr () {
+		return false;
+		}
+	
+	// Quinte flush ordinaire
+	public boolean checkqfo () {
+		return false;
+		}
+	
+	// Carré
+	public boolean checkcar () {
+		return false;	
+		}
 		
-		// Carré
+	// Full
+	public boolean checkful () {
+		return false;
+		}
+	
+	// Carte haute
+	public boolean checkcht () {
+		return false;
+		}
 		
-		// Full
+	// Paire (2 cartes identique en valeur)
+	public boolean checkpre () {
+		return false;	
+		}
+	
+	// Double paire (2 cartes identique en valeur, 2 fois)
+	public boolean checkdpr () {
+		return false;	
+		}
 		
-		// Carte haute
-		
-		// Paire (2 cartes identique en valeur)
-		
-		// Double paire (2 cartes identique en valeur, 2 fois)
-		
-		// Brelan (3 cartes identique en valeur)
-		
-		// Suite (5 cartes se suivant en valeur)
-		
-		// Couleur (5 cartes de la même famille)
-
-}
+	// Brelan (3 cartes identique en valeur)
+	public boolean checkbrl () {
+		return false;	
+		}
+	
+	// Suite (5 cartes se suivant en valeur)
+	public boolean checksui () {
+		return false;
+		}
+	
+	// Couleur (5 cartes de la même famille)
+	public boolean checkclr () {
+		return false;
+		}
+	}

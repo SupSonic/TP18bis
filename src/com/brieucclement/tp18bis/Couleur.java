@@ -1,13 +1,14 @@
 package com.brieucclement.tp18bis;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Couleur {
 	
-	public String couleur;
-	
-	 List<String> couleur = new ArrayList<String>();
-     list.add("Carreau");
-     list.add("Coeur");
-     list.add("Pique");
-     list.add("Tèfle");
-	
+	 List<String> couleur = new ArrayList<String>(); {
+     couleur.add("Carreau");
+     couleur.add("Coeur");
+     couleur.add("Pique");
+     couleur.add("Tèfle");
+	 }
 }
