@@ -1,12 +1,12 @@
 package com.brieucclement.tp18bis;
 
-public class Combinaison {
-	
-	String couleur;
-	String valeur;
+public class Combinaison implements Carte {
 	
 	// Quinte flush royal
 	public boolean checkqfr () {
+		String valeur;
+		String couleur;
+		
 		if (((valeur == "As") && (valeur == "Roi") && (valeur == "Dame") && (valeur == "Valet") && (valeur == "Dix")) 
 				&& ((couleur == "Coeur") || (couleur == "Carreau") || (couleur == "Pique") || (couleur == "Trèfle")));
 				return true;
