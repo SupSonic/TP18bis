@@ -92,6 +92,12 @@ package com.brieucclement.tp18bis;
 
 public class TP18bis {
 
-	
+	public static void main(String [] args) {
+		
+	int 
+		
+		System.out.println("Combien de joueurs?");
+		
+	}
 	
 }
