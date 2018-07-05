@@ -2,9 +2,11 @@ package com.brieucclement.tp18bis;
 
 public class Combinaison {
 	
+	String v
 	
 	// Quinte flush royal
 	public boolean checkqfr () {
+		if ()
 		return false;
 		}
 	
